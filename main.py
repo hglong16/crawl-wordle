@@ -13,6 +13,7 @@ with open('final.txt', 'a') as file:
     for word in word_list:
         result.append(word["word"])
         file.write(word["word"])
+        file.write('\n')
 
 print(result)
 print(len(result))
